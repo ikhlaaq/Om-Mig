@@ -1,0 +1,146 @@
+body {
+    background-color: #ffffff;
+    color: #795548;
+    font-family: "Open Sans";
+    margin: 0;
+}
+#button {
+    text-align: right;
+    margin-right: 3px;   
+    
+}
+#button > a {
+    display: block;
+    width: 100%;
+    line-height: 1em;
+    text-align: right;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #d33838;
+    color: #310b0b;
+}
+#button > a:hover {
+    color: red;
+    text-shadow: 2px 2px 4px #4caf50;
+}
+h1 {
+    background-color: #310b0b;
+    text-align: center;
+    margin-top: 1px;
+    border-top: 10px groove #d33838;
+           
+}
+
+h2 {
+    padding: 10px;
+    border-top: 10px groove #d33838;
+}
+h5 {
+    text-align: center;
+}
+.nav-link {
+    color: #795548;
+    font-size: 15px;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #d33838;
+    border-bottom: 3px solid #310b0b;
+}
+.nav-link:hover {
+    color: #d33838;
+    text-shadow: 2px 4px 8px #4caf50;
+
+}
+
+.navigation {
+       text-align: center;
+
+}
+.navigation > .links {
+    list-style: none;
+
+}
+
+.navigation > .links li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: -10px;
+    border-bottom: 3px solid #310b0b;
+}
+
+.navigation > .links li > .link {
+    color: #795548;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #d33838;
+    
+}
+
+    .navigation > .links li > .link:hover {
+        color: #d33838;
+        text-shadow: 2px 4px 8px #4caf50;
+        
+    }
+header img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px #795548;
+    border: 6px groove #310b0b;
+    border-top: 10px groove #d33838;
+    padding: 15px;
+
+}
+
+.about-me{
+    width: 50%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: -15px;
+    border-bottom: 10px groove #d33838;
+    
+}
+.my-details {
+    padding: 5px;
+    text-align: center;
+    
+}
+.more-details {    
+    color: #ffffff;
+    list-style: none;
+    text-align: center;
+    background-color: #310b0b;
+    
+}
+
+.more-details > li {
+    display: inline-block;
+    margin-right: 20%;
+    padding: 15px;
+  
+}
+.more-details > li:hover {
+    text-shadow: 2px 4px 8px #d33838;
+   
+}
+
+article {
+    width: 250px;
+    margin-left: 7%;
+    padding: 15px;
+    display: inline-table;
+    border: groove #310b0b;
+    border-top: 10px groove #d33838;
+      
+  }
+#contact {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #310b0b;
+    margin-top: 20px;
+    
+}
